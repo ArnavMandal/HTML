@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head><title>Resturant_Menu</title>
+        <style>
+            * {
+              margin: 0;
+              padding: 0;
+            }
+          
+            li {
+              display: inline;
+            }
+          
+            hr {
+              width: 95%;
+              margin: auto;
+            }
+          </style>
+    </head>
+    
+    <body>
+        <header><h1><i>Kanyakumari</i></h1>
+        <img id="header-img" src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/10/19163054/sunrise-in-kanyakumari.jpeg">
+        <ul>
+            <li>
+                <a href="#menu"><h3>Menu</h3></a>
+               
+            </li>
+            <li> 
+                <a href="#order-form"><h3>Order Form</h3></a>
+            </li>
+        </ul></header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <article>
+                    <h3>From Maharashtra</h3>
+                    <img alt="seafood special inspired by Maharashtra" src="https://lh3.googleusercontent.com/p/AF1QipPE1lbzM0o4D0HMTIVapG-cB3u4U9-k2ocC0bB1=s680-w680-h510-rw">
+                    <p>Lightly Battered Mussels cooked with Lime, Carrom Seeds and Solkadhi. 
+                    <b><i>24</i></b>
+                </p>
+                </article>
+                <article>
+                    <h3>From Mumbai</h3>
+                    <img alt="Vada Pav street food from Mumbai" src="https://lh3.googleusercontent.com/p/AF1QipPjcYAXercERar80qNOUO_93IH0og3g34Ik6KlR=s680-w680-h510-rw">
+                    <p>Vada Pav from Mumbai, Spicy Potato Filling inside Bread. 
+                    <b><i>18</i></b>
+                </p>
+                </article>
+                <article>
+                    <h3>From Malabar</h3>
+                    <img alt="Slow roasted beef" src="https://lh3.googleusercontent.com/p/AF1QipMaGtWQHu7u3miaoORQU25lTYGU3A7hJd4bA8Q0=s680-w680-h510-rw">
+                    <p>Slow cooked Black Gold Beef, Madras Onion, Chilli. 
+                    <b><i>32</i></b>
+                </p>
+                </article>
+            </section>
+            <section id="order-form">
+                <h2>Place an Order</h2>
+                <form><label>From Maharashtra: </label> <input type="number" min="0" max="100"></form>
+                <br><label>Special Instructions: <textarea placeholder="Place Instructions Here" maxLength="250"></textarea></label>
+                <form><label>From Mumbai: </label> <input type="number" min="0" max="100"></form>
+                <br><label>Special Instructions: <textarea placeholder="Place Instructions Here" maxLength="250"></textarea></label>
+                <form><label>From Malabar (Max 5): </label> <input type="number" min="0" max="5"></form>
+                <br><label>Special Instructions: <textarea placeholder="Place Instructions Here" maxLength="250"></textarea></label>
+                <br><label><input type="submit" value="Go to Checkout"></label>
+            </section>
+        </main>
+    </body>
+</html>
